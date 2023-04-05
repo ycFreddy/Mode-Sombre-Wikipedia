@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Mode Sombre pour Wikipedia",
+  "version": "1.0",
+  "description": "Mode Sombre pour Wikipedia",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "css": ["background.css"]
+    }
+  ]
+}
