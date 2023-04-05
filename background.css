@@ -185,7 +185,7 @@ a.mw-wiki-logo {
 /* SVG FADE ELEMENT INSIDE TABLE OF CONTENTS */
 div#vector-toc.vector-toc.vector-pinnable-element::after,
 div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
-  background: linear-gradient(rgba(255,255,255,0),#0d1117);
+  background:unset !important;
 }
 
 /* INVERTS COLOR OF LOGO, TAGLINE, AND VARIOUS ICONS 
@@ -204,9 +204,7 @@ img, div[class*="infobox"], div[class="thumbinner"], div[class*="boite-grise"], 
   border : 1px solid #1e1e1e !important;
   background-color : #343434 !important;
 }
-div[id*="vector-toc"]::after {
-  background:unset !important;
-}
+
 
 h2, div[id*="accueil_2017_en-tete"] {
   border-bottom: solid 1px #686461 !important;
