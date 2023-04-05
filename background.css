@@ -175,7 +175,7 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   border-bottom: 1px solid #101216;
 }
 
-table, tbody, tr[class] > td, tr[class] > th, ol, li, img, div[class*="infobox"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"] {
+table, tbody, tr[class] > td, th, ol, li, img, div[class*="infobox"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"] {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
 }
