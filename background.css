@@ -9,7 +9,7 @@ div[style*="clear"], div.NavHead, div.plainlinks, div[style*="lavender"], div.mw
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"], div[style*="display"],
 div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
-div[style*="font-size"], div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
+div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], div[style*="display"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
 div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
 div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"],
@@ -22,8 +22,7 @@ td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[styl
 td[style^="background:lavender"], td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
 
-th[colspan] > span,
-tr > td:is([colspan*="5"], [colspan*="4"], [colspan*="3"], [colspan*="2"], [rowspan*="3"], [rowspan*="2"]), tr[class] > td,
+
 
 span[class*="flaggedrevs-"], span.nowrap {
   background-color: #1e1e1e !important;
@@ -64,7 +63,7 @@ span[class*="charts-n"]
 
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
-th.infobox-above, th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
+th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
 td[style*="background:silver"],
 
 a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"] { 
@@ -156,7 +155,7 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   border-bottom: 1px solid #101216;
 }
 
-a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, ol, li, caption, img, div[class*="infobox"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"] {
+a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, ol, li, caption, img, div[class*="infobox"], div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"] {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
 }
