@@ -200,10 +200,11 @@ img.mw-logo-wordmark, img.mw-logo-taglinem, .central-textlogo__image {
   border-bottom: 1px solid #101216;
 }
 
-img, div[class*="infobox"], div[class="thumbinner"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"] {
-  border : 1px solid #1e1e1e !important;
+table, tbody, tr, td, img, div[class*="infobox"], div[class="thumbinner"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"] {
+  border : 1px solid #343434 !important;
   background-color : #343434 !important;
 }
+
 
 h2, div[id*="accueil_2017_en-tete"] {
   border-bottom: solid 1px #686461 !important;
