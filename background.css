@@ -164,10 +164,6 @@ span:is(.c1, .cm, .o, .mi, .mf, .fm) {
   flex: none !important;
 }
 
-a.mw-wiki-logo {
-  content: url("https://raw.githubusercontent.com/hirschan/Dark-Mode-Wikipedia/master/dark_wiki_icon_large.png");
-}
-
 /* SVG FADE ELEMENT INSIDE TABLE OF CONTENTS */
 div#vector-toc.vector-toc.vector-pinnable-element::after,
 div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
