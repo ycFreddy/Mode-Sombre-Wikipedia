@@ -1,17 +1,3 @@
-/* CSS Selectors:
-- HTML elements (div, nav, etc.)
-- HTML class attributes: .class-name (.btn)
-- HTML ID, unique: #id (#searchButton)
-
-!important means forced coloring 
-
-CSS attributes & values: [attribute="value"] 
-* = all, div[class*="test"]
-~ = specific word, [title~="flower"]
-^ = whose value starts with the specified value, [class^="top"]
-Read more here: https://www.w3schools.com/css/css_attribute_selectors.asp */
-
-
 /* DARK BACKGROUND COLORING */
 h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
@@ -188,19 +174,12 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   background:unset !important;
 }
 
-/* INVERTS COLOR OF LOGO, TAGLINE, AND VARIOUS ICONS 
-img.mw-logo-wordmark, img.mw-logo-taglinem, .central-textlogo__image {
-  -webkit-filter: invert(1);
-  filter: invert(1);
-}
-*/
-
 /* FIX LINE CUTTING ISSUE */
 .vector-menu-tabs .mw-list-item.vector-tab-noicon, .vector-page-toolbar-container .vector-menu-dropdown {
   border-bottom: 1px solid #101216;
 }
 
-table, tbody, tr, td, img, div[class*="infobox"], div[class="thumbinner"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"] {
+table, tbody, tr, td, img, div[class*="infobox"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"] {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
 }
