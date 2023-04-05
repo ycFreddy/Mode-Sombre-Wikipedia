@@ -161,9 +161,13 @@ a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="
 }
 
 
-h2, div[id*="accueil_2017_en-tete"], .mw-parser-output, .mp-box {
-  border-bottom: solid 1px #686461 !important;
-  border-color : #343434 !important;
+h2, div[id*="accueil_2017_en-tete"], .mw-parser-output, .mp-box, .portal-bar, .sister-bar {
+ border-bottom: solid 1px #343434 !important;
+ border-color : #343434 !important;
+}
+
+.sister-bar-content {
+ border-top: solid 1px #343434 !important; 
 }
 
 div[class*="vector"] {
