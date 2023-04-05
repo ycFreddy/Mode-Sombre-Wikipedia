@@ -1,4 +1,4 @@
-h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, tr, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
+h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
@@ -17,7 +17,7 @@ div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], d
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
 td[class*="navbox"],
 td:is(.diff-context, .infobox-subheader, .infobox-below, .MainPageBG, .navbox-group, .navbox-abovebelow, .plainlist, .sidebar-above, .sidebar-below, .sidebar-navbar), 
-td[style*="text-align"], td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
+td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
 td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
 td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
