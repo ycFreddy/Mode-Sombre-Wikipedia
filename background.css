@@ -155,7 +155,7 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   border-bottom: 1px solid #101216;
 }
 
-a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"] {
+a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
 }
@@ -163,4 +163,8 @@ a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="
 
 h2, div[id*="accueil_2017_en-tete"] {
   border-bottom: solid 1px #686461 !important;
+}
+
+div[class*="vector"] {
+ box-shadow:unset !important;
 }
