@@ -4,6 +4,10 @@
   "version": "1.0",
   "description": "Mode Sombre pour Wikipedia",
 
+ "icons": {
+    "48": "wikipedia-logo.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["*://*.wikipedia.org/*"],
