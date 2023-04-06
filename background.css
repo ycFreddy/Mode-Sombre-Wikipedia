@@ -161,7 +161,7 @@ a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="
 }
 
 
-h2, div[id*="accueil_2017_en-tete"], .mw-parser-output, .mp-box, .portal-bar, .sister-bar, .navbox, .navbox-title, .thumb, .side-box {
+h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebelow, .mw-parser-output tr + tr > .navbox-group, .mw-parser-output tr + tr > .navbox-image, .mw-parser-output tr + tr > .navbox-list, .mp-box, .portal-bar, .sister-bar, .navbox, .navbox-title, .thumb, .side-box {
  border-bottom: solid 1px #343434 !important;
  border-color : #343434 !important;
 }
