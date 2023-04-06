@@ -15,3 +15,8 @@ CSS pour basculer Wikipedia en mode sombre
 <img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots1.png" width="600">
 <img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots2.png" width="600">
 <img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots3.png" width="600">
+<img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots4.png" width="600">
+<img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots5.png" width="600">
+<img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots6.png" width="600">
+<img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots7.png" width="600">
+<img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/screenshots/screenshots8.png" width="600">
