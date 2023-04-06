@@ -1,4 +1,4 @@
-# Mode-Sombre-Wikipedia
+# Mode Sombre Wikipedia
 CSS pour basculer Wikipedia en mode sombre
 (Dark Mode for Wikipedia)
 
