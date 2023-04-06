@@ -1,17 +1,17 @@
-h1, h2, table, body, th, nav, tbody, ul, input, abbr, caption, p, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
+h1, h2, table, body, nav, tbody, input, abbr, caption, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
 div.portal-bar, div.suggestions-result, div.special-label, div.special-query, div.suggestions-special, div.editOptions, div[id*="wikiEditor-ui-toolbar"], div.sidebar-list-title,
 div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"], span[style^="display"],
-div[style*="clear"], div.NavHead, div.plainlinks, div.mw-mmv-above-fold, div.mw-mmv-image-metadata, div.thumb, div[id*="ooui-php-"], div.mw-prefs-buttons,
+div[style*="clear"], div.NavHead, div.plainlinks, div.mw-mmv-above-fold, div.mw-mmv-image-metadata,  div[id*="ooui-php-"], div.mw-prefs-buttons,
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"],
 div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
 div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
-div.mw-kartographer-attribution, div[class*="side-box"], div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
+div.mw-kartographer-attribution, div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
 div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"],
 
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
@@ -155,20 +155,27 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   border-bottom: 1px solid #101216;
 }
 
-a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, .bloc, .nickname, div[style*="lavender"] {
+a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, .bloc, .nickname, div[style*="lavender"], .thumb {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
 }
 
 
-h2, div[id*="accueil_2017_en-tete"], .mw-parser-output, .mp-box, .portal-bar, .sister-bar, .navbox, .navbox-title {
+h2, div[id*="accueil_2017_en-tete"], .mw-parser-output, .mp-box, .portal-bar, .sister-bar, .navbox, .navbox-title, .thumb, .side-box {
  border-bottom: solid 1px #343434 !important;
  border-color : #343434 !important;
 }
 
-.sister-bar-content {
+.side-box-text > ul, .sister-bar-content {
  border-top: solid 1px #343434 !important; 
 }
+
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+border-top: solid 1px #343434 !important;
+border-left: solid 1px #343434 !important;
+border-right: solid 1px #343434 !important;
+border-bottom: solid 1px #343434 !important;
+]
 
 div[class*="vector"] {
  box-shadow:unset !important;
