@@ -12,14 +12,14 @@ div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[c
 div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, 
 div.mw-kartographer-attribution, div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
-div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"],
+div[class*="responsive-license"], div[class*="vector"], div[class*="centralized"],
 
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
 td[class*="navbox"],
  
 td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
-td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
-td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
+td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
+td[style*="background-color:#DCDCDC"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
 .mw-parser-output .portalborder,
 
