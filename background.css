@@ -1,34 +1,34 @@
-h1, h2, table, body, nav, tbody, input, abbr, caption, dl, label, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
+body, h1, h2, table, body, nav, tbody, input, abbr, caption, dl, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 
-div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbcaption, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
+div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
 div.portal-bar, div.suggestions-result, div.special-label, div.special-query, div.suggestions-special, div.editOptions, div[id*="wikiEditor-ui-toolbar"], div.sidebar-list-title,
 div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"], span[style^="display"],
-div[style*="clear"], div.NavHead, div.plainlinks, div.mw-mmv-above-fold, div.mw-mmv-image-metadata,  div[id*="ooui-php-"], div.mw-prefs-buttons,
+div.NavHead, div.plainlinks, div.mw-mmv-above-fold, div.mw-mmv-image-metadata,  div[id*="ooui-php-"], div.mw-prefs-buttons,
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"],
 div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
-div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="row"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
+div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
 div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
-div[id*="FAQ"], div[style*="padding-left"], div[class*="hlist"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, div[class*="quotebox"],
+div[id*="FAQ"], div[style*="padding-left"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, 
 div.mw-kartographer-attribution, div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
 div[class*="responsive-license"], div[class*="vector"], div[class*="sidebar"], div[class*="centralized"],
 
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
 td[class*="navbox"],
-td:is(.diff-context, .infobox-subheader, .infobox-below, .MainPageBG, .navbox-group, .navbox-abovebelow, .plainlist, .sidebar-above, .sidebar-below, .sidebar-navbar), 
+ 
 td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
 td.sidebar-content, td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
 td[style*="background-color:#DCDCDC"], td[style*="border-top"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
-
+.mw-parser-output .portalborder,
 
 
 span[class*="flaggedrevs-"], span.nowrap {
   background-color: #1e1e1e !important;
 }
 
-h1, h2, h3, h4, p, th, td, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
+h1, h2, h3, h4, p, th, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
 div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, 
 td[class] > span[style*="white-space"],
@@ -155,7 +155,8 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   border-bottom: 1px solid #101216;
 }
 
-a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, .bloc, .nickname, div[style*="lavender"], .thumb, .entete, .map {
+
+a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, .bloc, .nickname, div[style*="lavender"], .thumb, .entete, .map, #footer-icons, .infobox-above.summary, .mw-parser-output .ib-settlement .infobox-subheader, .infobox, .mw-parser-output .ib-settlement-cols-cell, .mw-parser-output .quotebox, .theader {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
 }
@@ -179,4 +180,8 @@ border-bottom: solid 1px #343434 !important;
 
 div[class*="vector"] {
  box-shadow:unset !important;
+}
+
+#footer-icons {
+ filter:invert(0) !important;
 }
