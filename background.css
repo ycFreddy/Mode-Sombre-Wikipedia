@@ -54,8 +54,6 @@ td[style*="background-color:#DDDDDD"], td[style*="color:#000000"],
 td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcolor="#f9f8bb"] > b, td[bgcolor="#fad45d"] > b,
 td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b, td[bgcolor="FFD700"], td[bgcolor="silver"], td[bgcolor="gold"], td[bgcolor="cc9966"], td[bgcolor*="#6bd2df"] > b,
 
-td[style] > span,
-
 span[class*="charts-n"]
  {
    color: #0d1117 !important;
@@ -171,11 +169,12 @@ h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebe
  border-top: solid 1px #343434 !important; 
 }
 
-.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td, .wikitable, .infobox {
 border-top: solid 1px #343434 !important;
 border-left: solid 1px #343434 !important;
 border-right: solid 1px #343434 !important;
 border-bottom: solid 1px #343434 !important;
+color :unset !important;
 ]
 
 div[class*="vector"] {
