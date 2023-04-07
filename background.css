@@ -1,7 +1,6 @@
 body, h1, h2, table, body, nav, tbody, input, abbr, caption, dl, header, fieldset, legend, main, li[id*="ca"], a[href*="/wiki/"], a[href*="/w/"], a[accesskey], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
-
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
 div.portal-bar, div.suggestions-result, div.special-label, div.special-query, div.suggestions-special, div.editOptions, div[id*="wikiEditor-ui-toolbar"], div.sidebar-list-title,
 div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"], span[style^="display"],
@@ -11,19 +10,15 @@ div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_ba
 div[class*="oo-ui-layout"], div[class*="oo-ui-widget"], div[id*="search"], div[class*="mw-widget"], div[class^="module"], div[class*="hatnote"], div[class*="spoken"],
 div[class*="boilerplate"], div[class*="talkheader"], div[id*="rt-cite_ref"], div[class*="footer-sidebar-text"], div[class*="lang-list-container"],
 div[id*="FAQ"], div[style*="padding-left"], a[class*="oo-ui-widget"], div[id="sisterproject"], a.oo-ui-buttonElement-button, 
-div.mw-kartographer-attribution, div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"],
+div.mw-kartographer-attribution, div[style*="background:#DFE0E3"], div[class*="oo-ui-tagMultiselectWidget-handle"], div[class*="mw-changeslist-legend"], 
 div[class*="responsive-license"], div[class*="vector"], div[class*="centralized"],
-
 td:is([bgcolor*="dddddd"], [bgcolor*="light"], [bgcolor*="yellow"], [bgcolor*="skyblue"]),
 td[class*="navbox"],
- 
 td[style="background:#D4F7D4"], td[style*="background-color:#CCDEFF"],
 td.sidebar-pretitle, td[style="background:#F6E4E7"], td[style="background:#E6E6B7"], td[style*="background:#efefef"], td:is([style*="background:#F0F0F0"]),
 td[style*="background-color:#DCDCDC"], td[style*="background: #ffbb"], td[style*="background-color: #9fe"], td[id*="fileinfotpl"], 
 td:is([style*="background-color: #ffc"], [style*="background-color: #fb9"], [style*="background-color: #bfc"], [style*="background-color: #fcc"]),
 .mw-parser-output .portalborder,
-
-
 span[class*="flaggedrevs-"], span.nowrap {
   background-color: #1e1e1e !important;
 }
@@ -37,7 +32,6 @@ tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-str
 }
 
 td[class*="charts-nxa"] > span, td[class*="charts"],
-
 td[style*="background:#EEEEEE"], td[style*="background:#FED105"], td[style*="background:#A356DE"], td[style*="background:#17aa5c"],
 td:is([style*="background:#FFCDCC"], [style*="background:#CCDCFF"]) > b, td[style*="background:#ffb6b6"], td[style*="background:#f0f0ff"], td[style*="background:#b0ceff"], 
 td[style*="background:#fff3f3"], td.included, td[style*="background:pink"], td[style*="background:lightblue"]>b, 
@@ -46,14 +40,11 @@ td[style*="background:#9cc"], td[style*="background:#ff"]>b, td[style*="backgrou
 td[style*="background:#FEDF09"], td[style*="background:#019CDB"], td[style*="background:#ED1B34"], td[style*="background: #FF0800"],
 td[style*="background:salmon"], td[style*="background: #FF1800"], td[style*="background: #FF1700"], td[style*="background:#6bd2df"] > b, td[style*="background:#c3eded"] > b,
 td[style*="background:#f9f8bb"] > b, td[style*="background:#fad45d"] > b, td[style*="background:#dfefef"], td[bgcolor*="white"],
-
 td[style*="background-color: #FDB3AB"], td[style*="background-color: #FEF8C6"], td[style*="background-color: #D4F4B4"]>b, td[style*="background-color: #FED1A0"],
 td[style*="background-color:#FFB6B6"], td[style*="background-color:#FFB6B6"]>b, td[style*="background-color:#B0CEFF"], td[style*="background-color:#B0CEFF"]>b,
 td[style*="background-color:#DDDDDD"], td[style*="color:#000000"],
-
 td[bgcolor*="#f9f8bb"], td[bgcolor*="#c3eded"], td[bgcolor*="#fad45d"], td[bgcolor="#f9f8bb"] > b, td[bgcolor="#fad45d"] > b,
 td[bgcolor="#da820f"] > span, td[bgcolor="#c3eded"] > b, td[bgcolor="FFD700"], td[bgcolor="silver"], td[bgcolor="gold"], td[bgcolor="cc9966"], td[bgcolor*="#6bd2df"] > b,
-
 span[class*="charts-n"]
  {
    color: #0d1117 !important;
@@ -62,9 +53,7 @@ span[class*="charts-n"]
 .mp-h2, th.headerSort, th.unsortable, span[style*="width:7.5em"], td[style*="background-color: #F2F2F2"], div[style*="padding-left"], textarea, span.mw-tmh-play-icon,
 span.mw-ui-button, td[style*="text-align:center;background:#f0f0f0"], td[style*="background-color:#f0f0ff"], td[style*="background:#f1f1f1"], td[style*="vertical-align:top; background:#f2f2f4"],
 th.summary, div[id*="ooui-php-498"], td[style*="background:#f0f0f0"], div.quotebox-title, td[style*="background:#dddddd"], td[style*="background:lightgrey"], 
-td[style*="background:silver"],
-
-a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"] { 
+td[style*="background:silver"],a[class*="mw-ui-button"], button[class*="mw-interlanguage-selector"], button[id="js-lang-list-button"] { 
   background-color: #21262d !important;
   color: #c9d1d9 !important;
 }
@@ -175,7 +164,7 @@ h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebe
  border-right: solid 1px #343434 !important;
  border-bottom: solid 1px #343434 !important;
  color :unset !important;
-]
+}
 
 div[class*="vector"] {
  box-shadow:unset !important;
