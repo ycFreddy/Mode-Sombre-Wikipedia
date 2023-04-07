@@ -170,11 +170,11 @@ h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebe
 }
 
 .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td, .wikitable, .infobox {
-border-top: solid 1px #343434 !important;
-border-left: solid 1px #343434 !important;
-border-right: solid 1px #343434 !important;
-border-bottom: solid 1px #343434 !important;
-color :unset !important;
+ border-top: solid 1px #343434 !important;
+ border-left: solid 1px #343434 !important;
+ border-right: solid 1px #343434 !important;
+ border-bottom: solid 1px #343434 !important;
+ color :unset !important;
 ]
 
 div[class*="vector"] {
