@@ -1,11 +1,10 @@
-<div style="display:flex">
+<div style="display:flex; flex-direction: row">
 <div>
- <img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/wikipedia-logo.png" width="48">
+# Mode Sombre pour Wikipedia CSS pour basculer Wikipedia en mode sombre<br>
+ (Dark Mode for Wikipedia)
 </div>
 <div>
- # Mode Sombre pour Wikipedia
- CSS pour basculer Wikipedia en mode sombre
- (Dark Mode for Wikipedia)
+ <img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/wikipedia-logo.png" width="48">
 </div>
 </div>
 
