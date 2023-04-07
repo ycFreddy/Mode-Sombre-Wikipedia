@@ -1,7 +1,8 @@
 <img src ="https://github.com/ycFreddy/Mode-Sombre-Wikipedia/blob/main/wikipedia-logo.png" width="48">
 
-<h2>Mode Sombre pour Wikipedia CSS pour basculer Wikipedia en mode sombre<br>
- (Dark Mode for Wikipedia)</h2>
+<h2>Mode Sombre pour Wikipedia</h2><br>
+CSS pour basculer Wikipedia en mode sombre<br>
+ (Dark Mode for Wikipedia)
 
 ## Pour essayer le rendu sur Firefox
 
