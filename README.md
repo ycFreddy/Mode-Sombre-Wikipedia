@@ -4,7 +4,7 @@ CSS pour basculer Wikipedia en mode sombre
 
 ## Pour essayer le rendu sur Firefox
 
-1. rendez vous sur la page addon de Firefox **"https://addons.mozilla.org/fr/firefox/addon/mode-sombre-pour-wikipedia/"**
+Rendez vous sur la page addon de Firefox<br>**"https://addons.mozilla.org/fr/firefox/addon/mode-sombre-pour-wikipedia/"**
 
 ## Pour essayer le rendu sur Chrome
 
