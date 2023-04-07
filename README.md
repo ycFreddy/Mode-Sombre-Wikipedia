@@ -1,4 +1,4 @@
-<div style="display:flex; flex-direction: row">
+<div style="display:flex; flex-direction: row, widht:600">
 <div>
 # Mode Sombre pour Wikipedia CSS pour basculer Wikipedia en mode sombre<br>
  (Dark Mode for Wikipedia)
