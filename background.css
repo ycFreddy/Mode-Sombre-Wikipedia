@@ -1,9 +1,9 @@
-body, h1, h2, table, body, nav, tbody, input, abbr, caption, dl, header, fieldset, legend, main, li[id*="ca"], 
+body, h1, h2, table, body, nav, tbody, input, caption, dl, header, fieldset, legend, main, li[id*="ca"], 
 li.mw-tag-AWB, li[class*="mw-tag-mw"], li[class*="iw-resultset"], li[class*="selected"], li[id*="cite_note"], kbd, a[href*="/w/index.php?title=Wikipedia_Diskussion:Hauptseite&action=edit"], a[href*="/wiki/Wikipedia_Diskussion:Hauptseite"],
 span:is([style*="background:#FFEC8B;"], [style*="background-color: #DDDDFF"]), button[id*="display-panel-trigger"], div[class*="mw-echo-ui-notificationsInboxWidget-toolbarWrapper"],
 div[id*="m"], div[class*="toc"], div.mw-body, div.navbox, div.catlinks, div.thumbinner, div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small,
 div.portal-bar, div.suggestions-result, div.special-label, div.special-query, div.suggestions-special, div.editOptions, div[id*="wikiEditor-ui-toolbar"],
-div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], div[class^="noprint"], span[style^="display"],
+div.oo-ui-popupWidget-head, div.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-placeholderItemWidget.oo-ui-labelElement, div[class^="mwe"], span[style^="display"],
 div.NavHead, div.plainlinks, div.mw-mmv-above-fold, div.mw-mmv-image-metadata,  div[id*="ooui-php-"], div.mw-prefs-buttons,
 div[style*="background-color: #D9E6F3"], div[style*="background-color: #FAFAFF"], div[style*="background-color: #FFF"], div[class*="hauptseite"],
 div[class*="main-top"], div[class*="mw-page-container"], div[id="accueil_2017_bandeau"], div[class*="infobox"], div[class*="bandeau"], div[id^="edit"], div#deltagande, div.warningbox,
@@ -23,8 +23,8 @@ span[class*="flaggedrevs-"], span.nowrap {
   background-color: #1e1e1e !important;
 }
 
-h1, h2, h3, h4, p, th, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, div, td[style] > span.IPA,
-div.noprint, div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
+h1, h2, h3, h4, th, li, input, b, i, caption, .oo-ui-labelWidget, samp, span, textarea, div.mw-summary-preview, fieldset, td[style] > span.IPA,
+div.thumbcaption, div.mw-parser-output, div[class*="hatnote"], div.metadata.plainlinks.sistersitebox.plainlist.sister-box.mbox-small, div.mw-widget-calendarWidget-item,
 div.suggestions-result, div.special-label, div.suggestions-special, div.special-query, div[id*="mp"], div.mw-echo-ui-notificationItemWidget-content-message-header, 
 td[class] > span[style*="white-space"],
 tr > td.charts-hidm, tr > td > span.charts-hidm, tr > td > span[style*="font-stretch"] {
@@ -143,9 +143,10 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
 }
 
 
-a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, .bloc, .nickname, div[style*="lavender"], .thumb, .entete, .map, #footer-icons, .infobox-above.summary, .mw-parser-output .ib-settlement .infobox-subheader, .infobox, .mw-parser-output .ib-settlement-cols-cell, .mw-parser-output .quotebox, .theader, div.mw-inputbox-centered, div.uls-language-list, div#accueil_2017_bloc-liens, td.largestCities-cell-background, td.infobox-subheader, div.sidebar-list-title, .portalborder, section#mwe-popups-settings, table.droite > tbody > tr > td, table[style*="width:100%;background:none"] > tbody > tr > td > table > tbody > tr > td, div.barbox > div, td.infobox-below, table.navbox > tbody > tr > td  {
+a, table, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="infobox"], div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, .bloc, .nickname, div[style*="lavender"], .thumb, .entete, .map, #footer-icons, .infobox-above.summary, .mw-parser-output .ib-settlement .infobox-subheader, .infobox, .mw-parser-output .ib-settlement-cols-cell, .mw-parser-output .quotebox, .theader, div.mw-inputbox-centered, div.uls-language-list, div#accueil_2017_bloc-liens, td.largestCities-cell-background, td.infobox-subheader, div.sidebar-list-title, .portalborder, section#mwe-popups-settings, table.droite > tbody > tr > td, table[style*="width:100%;background:none"] > tbody > tr > td > table > tbody > tr > td, div.barbox > div, td.infobox-below, table.navbox > tbody > tr > td, table.toccolours > tbody > tr, div.NavContent, table.wikitable > tbody > tr > td, section.mf-section-4 > table > tbody > tr > td, td.navigation-only, div.mw-parser-output > table > tbody > tr > td, .fieldsetlike .legendtextlike, .oo-ui-popupWidget-popup, div.bandeau-cell > div > div > div  {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
+  background : #343434 !important;
 }
 
 
@@ -172,4 +173,8 @@ div[class*="vector"] {
 
 #footer-icons {
  filter:invert(0) !important;
+}
+
+div.mw-parser-output > blockquote {
+ border-left: 4px solid #343434;
 }
