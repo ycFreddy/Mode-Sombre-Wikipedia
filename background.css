@@ -159,7 +159,9 @@ div.mw-parser-output > table > tbody > tr > td, .fieldsetlike .legendtextlike, .
 }
 
 
-h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebelow, .mw-parser-output tr + tr > .navbox-group, .mw-parser-output tr + tr > .navbox-image, .mw-parser-output tr + tr > .navbox-list, .mp-box, .portal-bar, .sister-bar, .navbox, .navbox-title, .thumb, .side-box {
+h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebelow, .mw-parser-output tr + tr > .navbox-group, 
+.mw-parser-output tr + tr > .navbox-image, .mw-parser-output tr + tr > .navbox-list, .mp-box, 
+.portal-bar, .sister-bar, .navbox, .navbox-title, .thumb, .side-box {
  border-bottom: solid 1px #343434 !important;
  border-color : #343434 !important;
 }
