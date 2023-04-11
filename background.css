@@ -22,9 +22,10 @@ canvas {
   background-color: #acacac !important;
 }
 
-pre, code, .hll, tr::before {
-  background-color: #252525 !important;
-  color: #acacac !important;
+pre, code, .hll, tr::before, .mw-message-box-notice {
+ background-color: #252525 !important;
+ color: #acacac !important;
+ border:0px !important;
 }
 
 img.mwe-math-fallback-image-inline, img.mwe-math-fallback-image-display, .helpContents-icon,
@@ -90,7 +91,7 @@ input.vector-search-box-input {
  border: 1px solid #343434 !important;
 }
 
-a, table, textarea, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, caption, img, div[class*="navbox"], div[class*="infobox"], 
+a, li, table, textarea, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, caption, img, div[class*="navbox"], div[class*="infobox"], 
 div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], 
 div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, 
 .bloc, .nickname, div[style*="lavender"], .thumb, .entete, .map, #footer-icons, .infobox-above.summary, .mw-parser-output .ib-settlement .infobox-subheader, .infobox, 
@@ -98,7 +99,7 @@ div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .nav
 td.largestCities-cell-background, td.infobox-subheader, div.sidebar-list-title, .portalborder, section#mwe-popups-settings, table.droite > tbody > tr > td, 
 table[style*="width:100%;background:none"] > tbody > tr > td > table > tbody > tr > td, div.barbox > div, td.infobox-below, table.navbox > tbody > tr > td, 
 table.toccolours > tbody > tr, div.NavContent, table.wikitable > tbody > tr > td, section.mf-section-4 > table > tbody > tr > td, td.navigation-only, 
-div.mw-parser-output > table > tbody > tr > td, .fieldsetlike .legendtextlike, .oo-ui-popupWidget-popup, div.bandeau-cell > div > div > div, div[class*="uls"], div.vector-toc, div.mwe-popups-container, div.NavFrame, div.NavHead, div.navbox-abovebelow > div, div.portal-bar, div.sister-bar, .navbox-abovebelow, .navbox-even, .side-box, div[class*="wikiEditor-ui"], .ext-WikiEditor-ResizingDragBar, .editOptions, div.collapsible-list > div {
+div.mw-parser-output > table > tbody > tr > td, .fieldsetlike .legendtextlike, .oo-ui-popupWidget-popup, div.bandeau-cell > div > div > div, div[class*="uls"], div.vector-toc, div.mwe-popups-container, div.NavFrame, div.NavHead, div.navbox-abovebelow > div, div.portal-bar, div.sister-bar, .navbox-abovebelow, .navbox-even, .side-box, div[class*="wikiEditor-ui"], .ext-WikiEditor-ResizingDragBar, .editOptions, div.collapsible-list > div, .vector-menu-content {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
   background : #343434 !important;
@@ -145,8 +146,8 @@ div.mw-parser-output > blockquote {
 }
 
 .mw-list-item > a, .vector-menu-dropdown > .vector-menu-heading {
- padding: 6px !important;
- margin: 5px !important;
+ padding: 4px !important;
+ margin: 2px !important;
 }
 
 .vector-search-box-auto-expand-width {
