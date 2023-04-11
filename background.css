@@ -33,11 +33,6 @@ img[src*="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/12
     filter: invert(90%) !important;
 }
 
-#searchButton {
- color: #1e1e1e !important;
- background-color:#acacac !important;
-}
-
 span[class*="icon-subtract"], del {
   background-color: #e75d53 !important;
 }
@@ -90,6 +85,9 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
   border-bottom: 1px solid #101216;
 }
 
+input.vector-search-box-input {
+ border: 1px solid #343434 !important;
+}
 
 a, table, textarea, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="navbox"], div[class*="infobox"], 
 div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], 
@@ -125,7 +123,7 @@ h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebe
  color :unset !important;
 }
 
-div[class*="vector"], .vector-page-titlebar {
+div[class*="vector"], .vector-page-titlebar, .vector-search-box-input {
  box-shadow:unset !important;
 }
 
