@@ -1,7 +1,7 @@
 body, h1, h2, table, nav, tbody, input, caption, dl, header, fieldset, legend, main, 
 .mw-parser-output, .portalborder, div.vector-header-container, div.mw-page-container,div#accueil_2017_en-tete, .vector-toc, div[class*="uls"], div.need_ref, div[id*="mp"],
 .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary, a.oo-ui-icon-bell, a.oo-ui-icon-tray,
-span[class*="oo-ui-dropdownWidget-handle"], div.oo-ui-popupWidget-head, a.oo-ui-buttonElement-button, .vector-menu-content-list {
+span[class*="oo-ui-dropdownWidget-handle"], div.oo-ui-popupWidget-head, a.oo-ui-buttonElement-button {
  background-color: #1e1e1e !important;
  background: #1e1e1e !important;
 }
