@@ -82,14 +82,15 @@ div#vector-page-tools.vector-page-tools.vector-pinnable-element::after {
 }
 
 .vector-menu-tabs .mw-list-item.vector-tab-noicon, .vector-page-toolbar-container .vector-menu-dropdown {
-  border-bottom: 1px solid #101216;
+ border-bottom:unset !important;
+ margin:0 !important;
 }
 
 input.vector-search-box-input {
  border: 1px solid #343434 !important;
 }
 
-a, table, textarea, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, li, caption, img, div[class*="navbox"], div[class*="infobox"], 
+a, table, textarea, table[class*="vcard"] > tbody > tr, tbody, tr[class] > td, td[class*="vcard"], div.thumbinner, th, hr, ol, caption, img, div[class*="navbox"], div[class*="infobox"], 
 div[class*="infobox"] > div >  p,  div[class*="infobox-image"], div[class="thumbimage"], div[class="thumbinner"], div[class="thumbcaption"], div[class*="boite-grise"], 
 div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .navbox-container, .bandeau-portail, .catlinks, a[class*="mw-logo"], .mw-footer, .bordered, 
 .bloc, .nickname, div[style*="lavender"], .thumb, .entete, .map, #footer-icons, .infobox-above.summary, .mw-parser-output .ib-settlement .infobox-subheader, .infobox, 
@@ -97,7 +98,7 @@ div[class*="entete"], div[class*="bandeau"], div[class*="reference-cadre"], .nav
 td.largestCities-cell-background, td.infobox-subheader, div.sidebar-list-title, .portalborder, section#mwe-popups-settings, table.droite > tbody > tr > td, 
 table[style*="width:100%;background:none"] > tbody > tr > td > table > tbody > tr > td, div.barbox > div, td.infobox-below, table.navbox > tbody > tr > td, 
 table.toccolours > tbody > tr, div.NavContent, table.wikitable > tbody > tr > td, section.mf-section-4 > table > tbody > tr > td, td.navigation-only, 
-div.mw-parser-output > table > tbody > tr > td, .fieldsetlike .legendtextlike, .oo-ui-popupWidget-popup, div.bandeau-cell > div > div > div, div[class*="uls"], div.vector-toc, div.mwe-popups-container, div.NavFrame, div.NavHead, div.navbox-abovebelow > div, div.portal-bar, div.sister-bar, .navbox-abovebelow, .navbox-even, .vector-menu-content, .side-box, div[class*="wikiEditor-ui"], .ext-WikiEditor-ResizingDragBar, .editOptions, div.collapsible-list > div {
+div.mw-parser-output > table > tbody > tr > td, .fieldsetlike .legendtextlike, .oo-ui-popupWidget-popup, div.bandeau-cell > div > div > div, div[class*="uls"], div.vector-toc, div.mwe-popups-container, div.NavFrame, div.NavHead, div.navbox-abovebelow > div, div.portal-bar, div.sister-bar, .navbox-abovebelow, .navbox-even, .side-box, div[class*="wikiEditor-ui"], .ext-WikiEditor-ResizingDragBar, .editOptions, div.collapsible-list > div {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
   background : #343434 !important;
@@ -111,8 +112,12 @@ h2, div[id*="accueil_2017_en-tete"], .mw-parser-output tr + tr > .navbox-abovebe
  border-color : #343434 !important;
 }
 
+.entete, .infobox_v2 {
+ color: #747474 !important;
+}
+
 .side-box-text > ul, .sister-bar-content {
- border-top: solid 1px #343434 !important; 
+ border-top: solid 1px #343434 !important;
 }
 
 .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td, .wikitable, .infobox {
@@ -127,10 +132,23 @@ div[class*="vector"], .vector-page-titlebar, .vector-search-box-input {
  box-shadow:unset !important;
 }
 
+table.infobox_v2 > tbody > tr > td > span {
+ text-shadow:unset !important;
+}
+
 #footer-icons {
  filter:invert(0) !important;
 }
 
 div.mw-parser-output > blockquote {
  border-left: 4px solid #343434;
+}
+
+.mw-list-item > a, .vector-menu-dropdown > .vector-menu-heading {
+ padding: 6px !important;
+ margin: 5px !important;
+}
+
+.vector-search-box-auto-expand-width {
+ margin-left: 0px !important;
 }
