@@ -156,3 +156,9 @@ div.mw-parser-output > blockquote {
 .vector-search-box-auto-expand-width {
  margin-left: 0px !important;
 }
+
+.mw-mmv-ttf-ellipsis, .mw-mmv-ttf-ellipsis::before, .mw-mmv-info-box, .mw-mmv-permission-text-fader {
+ background-image: unset !important;
+ background-color: transparent !important;
+ box-shadow: unset !important;
+}

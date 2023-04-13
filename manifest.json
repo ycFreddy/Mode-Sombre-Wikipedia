@@ -1,16 +1,17 @@
 {
-  "manifest_version": 2,
   "name": "Mode Sombre pour Wikipedia",
-  "version": "1.0.10",
+  "version": "1.0.12",
+  "manifest_version": 2,
   "description": "Mode Sombre pour Wikipedia",
 
- "icons": {
+  "icons": {
     "48": "wikipedia-logo.png"
   },
 
   "content_scripts": [
     {
       "matches": ["*://*.wikipedia.org/*"],
+      "run_at": "document_start",
       "css": ["background.css"]
     }
   ]
