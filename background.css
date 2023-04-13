@@ -1,7 +1,7 @@
 body, h1, h2, table, nav, tbody, input, caption, dl, header, fieldset, legend, main, 
 .mw-parser-output, .portalborder, div.vector-header-container, div.mw-page-container,div#accueil_2017_en-tete, .vector-toc, div[class*="uls"], div.need_ref, div[id*="mp"],
 .mw-helplink, .oo-ui-indicator-down, .oo-ui-iconWidget, .infobox-above.summary, a.oo-ui-icon-bell, a.oo-ui-icon-tray,
-span[class*="oo-ui-dropdownWidget-handle"], div.oo-ui-popupWidget-head, a.oo-ui-buttonElement-button {
+span[class*="oo-ui-dropdownWidget-handle"], div.oo-ui-popupWidget-head, a.oo-ui-buttonElement-button, .mw-mmv-post-image {
  background-color: #1e1e1e !important;
  background: #1e1e1e !important;
 }
@@ -101,7 +101,8 @@ table[style*="width:100%;background:none"] > tbody > tr > td > table > tbody > t
 table.toccolours > tbody > tr, div.NavContent, table.wikitable > tbody > tr > td, section.mf-section-4 > table > tbody > tr > td, td.navigation-only, 
 div.mw-parser-output > table > tbody > tr > td, .fieldsetlike .legendtextlike, .oo-ui-popupWidget-popup, div.bandeau-cell > div > div > div, div[class*="uls"], 
 div.vector-toc, div.mwe-popups-container, div.NavFrame, div.NavHead, div.navbox-abovebelow > div, div.portal-bar, div.sister-bar, .navbox-abovebelow, .navbox-even,
-.side-box, div[class*="wikiEditor-ui"], .ext-WikiEditor-ResizingDragBar, .editOptions, div.collapsible-list > div, .vector-dropdown-content, #pagehistory li.selected, .navbox-list, .need_ref_tag {
+.side-box, div[class*="wikiEditor-ui"], .ext-WikiEditor-ResizingDragBar, .editOptions, div.collapsible-list > div, .vector-dropdown-content, 
+#pagehistory li.selected, .navbox-list, .need_ref_tag, div.mw-mmv-image-metadata {
   border : 1px solid #343434 !important;
   background-color : #343434 !important;
   background : #343434 !important;
